@@ -1,0 +1,44 @@
+---
+Tipos de Dados e Operadores
+---
+```{r}
+#declaração implicita númerico
+delta = 8
+class(delta)
+```
+L declara como inteiro
+```{r}
+delta = 8L
+class(delta)
+```
+Outros tipos
+```{r}
+logico_true = TRUE
+logico_false = F
+caractere_aspasduplas = "Texto"
+caractere_aspassimples = 'Texto'
+class(caractere_aspasduplas)
+class(caractere_aspassimples)
+class(logico_false)
+class(logico_true)
+```
+Operações Matemáticas
+```{r}
+c = 2
+d = 4
+(c + d) * d
+e = (c + d) * d #atribuindo variável
+e
+```
+Testes Lógicos
+```{r}
+a = 1
+b = 2
+a < b
+a == b
+```
+Raiz Quadrada
+```{r}
+sqrt(2500)
+```
+
